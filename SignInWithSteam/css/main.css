@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 22, 2017, 8:49:20 PM
+    Author     : dsmis
+*/
+
+body {
+    background-color: #3c3434;
+}
+
+.background-holder {
+    background-image:url('../img/steam_games.jpg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.4;
+    z-index: 1;
+}
+.form-style {
+    z-index: 2;
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+.form-image {
+    width: 400px;
+}
+
+.logout-image {
+    width: 300px;
+    height: 59px;
+    color: #659900;
+    font-weight: bold;
+    font-size: 150%;
+    text-transform: uppercase;
+    border-radius: 35px;
+    border: solid;
+}
+
+.steam-key-token-holder{
+   position: absolute;
+    width: 471px;
+    color: #659900;
+    font-weight: bold;
+    font-size: 315%;
+    text-transform: uppercase;
+    z-index: 2;
+    font-family: sans-serif;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #cecece;
+    border-radius: 25px;
+    padding: 22px;
+    border: solid;
+}
